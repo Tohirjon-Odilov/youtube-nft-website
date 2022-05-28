@@ -286,7 +286,7 @@
     }
     @media screen and (max-width: 480px) {
         .main__container{
-            padding: 25px;
+            padding: 0;
         }
         .main__content h1 {
                 font-size: 2.5rem;
@@ -301,6 +301,13 @@
         .main__btn {
             padding: 12px 36px;
             margin: 2.5rem 0;
+        }
+        .main__img--container{
+            width: 100%;
+            padding: 5px;
+        }
+        #main__img{
+            width: 100%;
         }
     }
 }
